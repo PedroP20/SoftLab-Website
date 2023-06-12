@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Curso de CSS</title>
+    <link rel="stylesheet" href="CSSCurso.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../ProjectSoftLab/icons/softlabIcon.png">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo"> SoftLab </div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul> 
+                <li>
+                    <a href="/SoftLab/ProjectSoftLab/index.html#cursos-link"> Cursos </a>
+                </li>
+
+                <li>
+                    <a href="../ProjectSoftLab/index.html" class="under"> SoftLab </a>
+                </li>
+            </ul>
+        </nav>
+
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+
+
+
+    <!-- VIDEO PLAYLIST -->
+    <main class="container">
+        <section class="main-video">
+            <video src="videos/.mp4" controls autoplay></video>
+            <h3 class="title"></h3>
+            <h4 class="description"></h4>
+        </section>
+
+        <section class="video-playlist">
+            <h3 class="title"> Curso sobre CSS</h3>
+            <p> 6 vídeos &nbsp; - &nbsp; 30 minutos</p>
+            <div class="videos">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="CSSCurso.js"></script>
+</body>
+
+</html>
